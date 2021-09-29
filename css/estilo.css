@@ -1,0 +1,871 @@
+/* body{
+    background-image:  url(../img/paredblanca.jpg);
+} */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #cfcae4;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+}
+
+#img_logo {
+    height: 110px;
+    width: 100px;
+    /* background-color: blue; */
+}
+
+ .logotipo {
+    width: 100%;
+ }
+
+#menu {
+    height: 110px;
+    width: 500px;
+    /* background-color: #da133e; */
+    display: flex;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a {
+    display: inline-block;
+    width: 110px;
+    height: 45px;
+    /* background-color: rgb(0,0,200,0.5); */
+    text-decoration: none;
+    line-height: 2.5;
+    color: #003300;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#menu ul li a:hover {
+    /* background-color: #7f6de2; */
+    border-radius: 5px;
+}
+
+.portada{
+    width: 100%;
+    height: 450px;
+    background-color: #1a8dd9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#img_izquierda {
+    height: 300px;
+    width: 460px;
+    /* background-color:rgb(145, 153, 39); */
+    
+}
+.chef01{
+    width: 100%;
+}
+#txt_der {
+    height: 300px;
+    width: 500px;
+    /* background-color:rgb(200, 93, 44); */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}    
+
+p {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 5px;
+}
+
+/* NUESTROS SERVICIOS */
+.servicios-varios{
+    background-color: hotpink;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+.nuestros-servicios{
+    position: absolute;
+    top: 500px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+#img_izq {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(122, 179, 150);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#img_centro {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(187, 121, 109);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#img_derecha {
+    height: 450px;
+    width: 350px;
+    background-color: rgb(238, 226, 224);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.imagen{
+    width: 100%;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 1.5em;
+}
+.parrafo{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+
+.btn .boton{
+    font-size: 1.2em;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+/* ASIDE */
+/* #opcional {
+    height: 400px;
+    width: 100%;    
+    background-color: #dd0fe4;
+}
+
+.promocion{
+    background-color: brown;
+    height: 100px;
+    width: 450px;
+    display: block;
+    text-align: center;
+}
+
+.promocion img {
+    width: 20%;
+    margin-bottom: 50px;
+    position: absolute;
+    left:480px;
+    
+} */
+
+#nosotros {
+    height: 500px;
+    background-color:#1ad9cf;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#img_bio {
+    height: 200px;
+    width: 200px;
+    background-color:#80391e;
+}
+
+.chef02{
+    width: 100%;
+}
+#biografia {
+    height: 300px;
+    width: 500px;
+    background-color:#cccc00;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.biografia{
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/* inicio seccion de galería de la pag.*/
+.imagenes {
+    height: 700px;
+    background-color: #a6d91a;
+    /* margin-bottom: 10px; */
+    /* margin-top: 20px; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+}
+.galeria{
+    color: #003300;
+    text-align: center;
+    font-size: 40px;
+}
+
+#img_1{
+    height: 300px;
+    width: 300px;
+    background-color: 	#333399;
+}
+
+.meat{
+    width: 100%;
+}
+
+
+#img_2 {
+    height: 300px;
+    width: 300px;
+    background-color: 	#333399;
+    
+}
+
+.burger{
+    width: 100%;
+}
+#img_3 {
+    height: 300px;
+    width: 300px;
+    background-color: 	#333399;
+}
+
+.beer {
+   width: 118%;
+   box-sizing: content-box;
+}
+
+#img_4 {
+    height: 300px;
+    width: 300px;
+    background-color: 	#333399;
+}
+
+
+#img_4 img {
+    width: 95%;
+}
+
+#img_5 {
+    height: 300px;
+    width: 300px;
+    background-color: 	#333399;
+}
+
+.pizza {
+    width: 105%;
+}
+
+#img_6 {
+    height: 300px;
+    width: 300px;
+    background-color: 	#333399;
+}
+
+#img_6 img {
+    width: 100%;
+}
+ /* fin de seccion de galeria */
+
+#contacto {
+    height: 500px;
+    /* background-color: #d9961a; */
+}
+
+#txt {
+    height: 400px;
+    width: 300px;
+    background-color:#5b69b9;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+#txt h2 {
+    color: #990000;
+    text-align: center;
+}
+
+button {
+    margin-left:110px;
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+#txt ul li {
+    list-style-type: none;
+    color: black;
+    font-size: 20px; 
+}
+
+#formulario {
+    height: 1000px;
+    width: 100%;
+    background-color:#009999;
+    margin-top: 20px;
+}
+.contacto{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+}
+form, label, input, textarea{
+    display:block;
+    margin: 10px;
+    position: relative;
+    left: 22%;
+    top: 50px;
+    font-size: 25px;
+    width: 60%;
+}
+
+.btn-enviar{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    header, section, footer  {
+        width: 580px;
+    }
+    
+    #img_logo {
+        height: 150px;
+        width: 250px;
+    }
+    
+     .logotipo {
+        width: 150px;
+        height: 150px;
+     }
+    
+    #menu {
+        height: 150px;
+        width: 250px;  
+    }
+    
+    #menu ul li a {
+        margin-bottom: 0px;
+    }
+    
+    #inicio {
+        height: 750px;
+       
+    }
+    
+    #img_izq {
+        height: 150px;
+        width: 250px;
+    }
+    
+    .chef01 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #txt_der {
+        height: 300px;
+        width: 320px;
+    }
+
+    #txt_izq {
+        height: 200px;
+        width: 580px;
+    }
+    
+    .servicios {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    #img_centro {
+        width: 250px;
+        margin-left:0;
+        margin-top: 20px;
+    }
+
+    .coffe {
+       width: 100%;
+    }
+
+    #cocina {
+        width: 250px;
+        margin-right:50px ;
+        margin-top: 20px;
+    }
+    
+    .fotococina {
+        height: 100%;
+    }
+    
+    
+    #opcional {
+        height: 180px;
+        width: 580px;    
+    }
+     
+    .promocion img {
+        width: 40%;
+        margin-left: 200px;
+        
+    }
+    
+    #nosotros {
+        height: 400px;
+        margin-top: 190px;
+    }
+    
+    #img_bio {
+        margin-bottom:0;
+        margin-top: 0;
+        margin-left: 200px;
+    }
+    
+    .chef02{
+        width: 80%;
+    }
+    #biografia {
+        width: 500px;
+    }
+    .biografia{
+        text-align:center;
+        font-family: sans-serif;
+    }
+    
+    /* inicio seccion de galería de la pag.*/
+    #imagenes {
+        height: 720px;
+        /*background-color: #a6d91a;*/
+        margin-bottom: 10px;
+    }
+
+    #imagenes h2 {
+    color: #003300;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+    #img_1{
+        width: 250px;
+        margin-bottom: 0px;
+    }
+    
+    #img_2 {
+        height: 250px;
+        width: 250px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+
+    #img_3 {
+        width: 250px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    
+    .beer {
+       width: 115%;
+    }
+    
+    #img_4 {
+        width: 250px;
+        float: right;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    
+    #img_5 {
+        width: 250px;
+        margin-top: 0px;
+    }
+    
+    .pizza {
+        width: 110%;
+    }
+    
+    #img_6 {
+        width: 250px;
+        float: right;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    
+     /* fin de seccion de galeria */
+    
+    #contacto {
+        height: 550px;
+        /* background-color: #d9961a; */
+    }
+    
+    #txt {
+        height: 160px;
+        width: 580px;
+        margin-left: auto;
+        margin-top: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+    }
+    
+    #formulario {
+        height: 400px;
+        width: 580px;
+        margin-left: auto;
+    }
+    
+    footer {
+        width: 580px;
+        margin-top: 150px;
+        height: 180px;
+    }
+    
+    #info_contacto {
+        height: 100px;
+        width: 150px;
+        margin-top:30px;
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+    
+    #redes {
+        height: 100px;
+        width: 150px;
+        padding-left: 20px;
+        margin-right: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    #secciones {
+        height: 100px;
+        width: 150px;
+        margin-top:30px;
+        padding-right: 10px;
+        margin-right: 10px;
+        
+    }
+}  /* fin de media de 600px-1023px */
+
+@media all and (max-width: 599px) {
+
+    header, section, footer  {
+        width: 90%;
+    }
+    
+    header {
+        height: auto;
+    }
+    
+    #img_logo {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    
+     .logotipo {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+     }
+    
+    #menu {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    
+    #menu ul li {
+        display: block;
+    }
+    
+    #menu ul li a {
+        width: 100%;
+        margin-top: 14px;
+    }
+    
+    #inicio {
+        height: auto;
+    }
+    
+    #img_izq {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    
+    .chef01 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #txt_der {
+        height: auto;
+        width: 100%;
+        float: none;    
+    }
+    
+    #txt_izq {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    
+    .servicios {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    #img_centro {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    #cocina {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+    
+    #opcional {
+        height: auto;
+        width: 100%  
+    }
+    
+    .promocion img {
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+        margin-left: 0;
+    
+    }
+    #nosotros {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    #img_bio {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    #biografia {
+        height: auto;
+        width: 100%;
+        float: none;   
+        margin-left: 0;
+    }
+    
+    /* inicio seccion de galería de la pag.*/
+    #imagenes {
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #imagenes h2 {
+        font-size: 40px;
+    }
+    
+    #img_1{
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    
+    #img_2 {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    #img_3 {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .beer {
+       width: 100%;
+    }
+    
+    #img_4 {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-left: 0; 
+    }
+    
+    
+    #img_4 img {
+        width: 100%;
+    }
+    
+    #img_5 {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .pizza {
+        width: 100%;
+    }
+    
+    #img_6 {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+     /* fin de seccion de galeria */
+    
+    #contacto {
+        height: auto;
+        /*background-color: #d9961a;*/
+    }
+    
+    #txt {
+        height: 100px;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    
+    #formulario {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    
+    #formulario h2 {
+        font-family: 'calibri';
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .control {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #formulario p {
+        height: auto;
+    }
+    
+    .botton {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    footer {
+        height: 350px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    #info_contacto {
+        height: 100px;
+        width: 100%;
+        margin-top:10px;
+        float: none;;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    
+    #redes {
+        height: 100px;
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    
+    #secciones {
+        height: 100px;
+        width: 100%;
+        margin-top:10px;
+        float: none;
+        padding-right: 0;
+        margin-left: 0;
+        
+    }
+
+}  /*inicio de media de 599*/
