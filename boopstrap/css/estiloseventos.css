@@ -1,0 +1,113 @@
+
+#contenedor{
+    /* background-color:#cccc; */
+    height: 1000px;
+}
+
+
+#encabezado{
+    /* background-color: #6666ff; */
+    height: 180px;
+}
+
+#cabecera1{
+    /* background-color:#00cc66 ; */
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+/* #cabecera2{
+    background-color:#ffcc00 ;
+} */
+
+#buscador{
+    margin-top: 50px;
+}
+
+#contenido{
+    /* background-color: #ff5050; */
+    height:750px ;
+}
+
+#cont_1{
+    /* background-color:#a5aaa5 ; */
+}
+
+.parrafo{
+    font-family: cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#cont_2{
+    /* background-color:#0000ff; */
+} 
+
+h3{
+    text-align: center;
+}
+
+#carouselExampleControls{
+    margin-top: 20px;
+}
+
+#cont_3{
+    /* background-color:#ff6600; */
+}
+
+#piedpagina{
+    background-color:#cc00cc;
+    height: 120px;
+}
+
+.red{
+    margin-left: 50px;
+}
+#redessociales ul li{
+    display: inline;
+    list-style-type: none;
+}
+#redessociales ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.color{
+    color: #000099;
+}
+
+.boton-info{
+    background-color:#ff3300 ;
+    color: #ffffff;
+}
+.boton-violeta:hover{
+    background-color: #660066;
+}
+
+.email{
+    color:#333300;
+    font-size: 20px;
+}
+
+.pregunta{
+    font-size: 18px;
+    color: #001a00;
+    font-weight: bold;
+    
+}
+
+.form-control{
+    background-color: #ccf2ff;
+}
+
+#buscador{
+    margin-top: 90px;
+}
