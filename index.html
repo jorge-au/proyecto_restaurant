@@ -32,6 +32,8 @@
 			</nav>
 
 		</header>
+
+		<!-- seccion Inicio -->
 		<section id="inicio">
 			<div class="portada">
 				<div id="img_izquierda">
@@ -46,6 +48,7 @@
 				</div>
 			</div>
 
+			<!-- seccion servicios -->
 			<div class="servicios-varios">
 				<h2 class="nuestros-servicios">Nuestros Servicios</h2>
 				<div id="img_izq" class="desayuno">
@@ -84,6 +87,8 @@
 			</aside> -->
 
 		</section>
+
+		<!-- seccion Nosostros -->
 		<section id="nosotros">
 			<div id="img_bio">
 				<img src="img/chef02.jpg" class="chef02">
@@ -96,33 +101,35 @@
 				</p>
 			</div>
 		</section>
+
+		<!-- Secccion de Imagenes -->
 		<section id="imagenes">
+			<h2 class="titulo_galeria">Platos Destacados</h2>
 			<div class="imagenes">
-				<!-- <h2 class="galeria">Galeria</h2> -->
 				
-				<div id="img_1">
-					<!-- <img src="img/carne.jpg" class="meat"> -->
+				<div id="img_1" class="imagenes__container">
+					<img src="img/carne.jpg" class="imagenes__meat">
 
 				</div>
-				<div id="img_2">
-					<!-- <img src="img/hambur.jpg" class="burger"> -->
+				<div id="img_2" class="imagenes__container">
+					<img src="img/hambur.jpg" class="imagenes__burger">
 
 				</div>
 
-				<div id="img_3">
-					<!-- <img src="img/beer.jpg" class="beer"> -->
+				<div id="img_3" class="imagenes__container">
+					<img src="img/beer.jpg" class="imagenes__beer">
 
 				</div>
-				<div id="img_4">
-					<!-- <img src="img/pasta.jpg" alt="pasta"> -->
+				<div id="img_4" class="imagenes__container">
+					<img src="img/pasta.jpg" class="imagenes__pasta">
 					
 				</div>
-				<div id="img_5">
-					<!-- <img src="img/pizza.jpg" class="pizza"> -->
+				<div id="img_5" class="imagenes__container">
+					<img src="img/pizza.jpg" class="imagenes__pizza">
 
 				</div>
-				<div id="img_6">
-					<!-- <img src="img/salad.jpg" alt="salad"> -->
+				<div id="img_6" class="imagenes__container">
+					<img src="img/salad.jpg" class="imagenes__salad">
 				</div>
 			</div>
 			
@@ -156,17 +163,17 @@
 			<div id="formulario">
 				<h2 class="contacto">Contactanos</h2>
 				<form action="" class="form">
-					<label for="">Nombre</label>
-					<input type="text" name="nombre">
-					<label for="">Apellido</label>
-					<input type="text" name="apellido">
-					<label for="">Email</label>
-					<input type="email">
-					<label for="">Telfono</label>
-					<input type="tel" name="telefono" id="">
-					<label for="">Comentarios</label>
-					<textarea class="textarea" name="comentarios" id="" cols="30" rows="10"></textarea>
-					<button class="btn-enviar">Enviar</button>
+					<label for="nombre" class="form__label">Nombre</label>
+					<input type="text" name="nombre" class="form__input">
+					<label for="apellido" class="form__label">Apellido</label>
+					<input type="text" name="apellido" class="form__input">
+					<label for="email" class="form__label">Email</label>
+					<input type="email" name="email" class="form__input">
+					<label for="telefono" class="form__label">Telfono</label>
+					<input type="tel" name="telefono" class="form__input">
+					<label for="comentarios" class="form__label">Comentarios</label>
+					<textarea name="comentarios" cols="30" rows="7" class="form__textarea"></textarea>
+					<input type="submit" class="form__btn">
 				</form>
 			</div>
 		</section>
