@@ -1,76 +1,63 @@
-/* body{
-    background-image:  url(../img/paredblanca.jpg);
-} */
+
 
  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
-header {
+.header{
+    height: 200px;
     width: 100%;
-    height: 70px;
-    background-color: #cfcae4;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;  
-    align-items: center;
-    position: sticky;
-    z-index: 10;
-    top: 0px;
+    background-color: #d4d4d4;
 }
-
-#img_logo {
-    height: 110px;
-    width: 100px;
-    /* background-color: blue; */
+.logo{
+    width: 15%;
+    height: auto;
+    position: relative;
+    margin-left: 40%;
 }
-
- .logotipo {
+.logo__img{
     width: 100%;
- }
-
-#menu {
-    height: 110px;
-    width: 500px;
-    /* background-color: #da133e; */
-    display: flex;
 }
 
-#menu ul {
+.nav{
+    height: 80px;
+    widows: 100%;
+    background-color: #214946;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+
+}
+.menu__items{
     list-style-type: none;
+    margin-left: 15px;
+    margin-right: 15px;
 }
-
-#menu ul li{
-    display: inline;
-}
-
-#menu ul li a {
-    display: inline-block;
-    width: 110px;
-    height: 45px;
-    /* background-color: rgb(0,0,200,0.5); */
+.menu__ancla{
     text-decoration: none;
-    line-height: 2.5;
-    color: #003300;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.2em;
+    color: black;
+    font-size: 1.5rem;
+    color: #ffff;
 }
 
-#menu ul li a:hover {
-    /* background-color: #7f6de2; */
-    border-radius: 5px;
-}
 
+/********Seccion Inicio*******************/
+#inicio{
+    background-color: green;
+    height: auto;
+}
 .portada{
     width: 100%;
-    height: 450px;
-    background-color: #1a8dd9;
+    height: 50vh;
+    /*background-color: #1a8dd9;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -847,4 +834,4 @@ button {
         
     }
 
-}  /*inicio de media de 599*/
+}  /*inicio de media de 599
