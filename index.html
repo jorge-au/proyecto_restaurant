@@ -1,197 +1,250 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Restaurant</title>
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-		<link rel="stylesheet" href="css/iconos.css">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/iconos.css" />
 
-		<!-- google fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-		<!-- css bootstrap -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	</head>
-	<body> 
-
-		<header class="header">
-			<div class="logo">
-				<img src="img/logo.png" class="logo__img">
-			</div>
-		</header>
+    <!-- css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="img/logo.png" class="logo__img" />
+        </div>
 
 		<nav id="nav" class="nav">
-				<ul class="menu">
-					<li class="menu__items">
-						<a href="#inicio" class="menu__ancla">Inicio</a>
-					</li>
-					<li class="menu__items">
-						<a href="#nosotros" class="menu__ancla">Nosotros</a>
-					</li>
-					<li class="menu__items">
-						<a href="#imagenes" class="menu__ancla">Imagenes</a>
-					</li>
-					<li class="menu__items">
-						<a href="#contacto" class="menu__ancla">Contacto</a>
-					</li>
-					<li class="menu__items">
-						<a href="#" class="menu__ancla">Galeria</a>
-					</li>
-					<li class="menu__items">
-						<a href="#" class="menu__ancla">Servicios</a>
-					</li>
-				</ul>
-			</nav>
-
-
-		<!-- seccion Inicio -->
-		<section id="inicio">
-			<div class="portada">
-				<div id="img_izquierda">
-					<img src="img/chef01.jpg" class="chef01">
+			<ul class="menu">
+			  <li class="menu__items">
+				<a href="#inicio" class="menu__ancla">Inicio</a>
+			  </li>
+			  <li class="menu__items">
+				<a href="#servicios" class="menu__ancla">Servicios</a>
+			  </li>
+			  <li class="menu__items">
+				<a href="#nosotros" class="menu__ancla">Nosotros</a>
+			  </li>
+			  <li class="menu__items">
+				<a href="#imagenes" class="menu__ancla">Imagenes</a>
+			  </li>
+			  <li class="menu__items">
+				<a href="#contacto" class="menu__ancla">Contacto</a>
+			  </li>
+			</ul>
+		  </nav>
 	
-				</div>
-				<div id="txt_der">
-					<h1> BIENVENIDOS</h1>
-					<p id="parrafo">
-						Gracias por venir. Somos el unico restaurante, que sirve deliciosos platos preparados por los mejores chefs. Solo toma unos minutos navegar por nuestro sitio web y echar un vistazo a nuestro sitio. <br> Esperamos que pronto se una a nosotros para una magnífica experiencia culinaria.
-					</p>
-				</div>
-			</div>
+      </header>
 
-			<!-- seccion servicios -->
-			<div class="servicios-varios">
-				<h2 class="nuestros-servicios">Nuestros Servicios</h2>
-				<div id="img_izq" class="desayuno">
-					<img src="img/coffe.jpg" alt="" class="imagen">
-					<h2 class="subtitulo">Desayuno</h2>
-					<p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ipsa!</p>
-					<div class="btn">
-						<button class="btn boton">Ver mas</button>
+      
+      <!-- seccion Inicio -->
+      <section id="inicio">
+        <div class="portada">
+          <div id="img_izquierda" class="portada__img">
+            <img src="img/chef01.jpg" class="chef01" />
+          </div>
+          <div id="txt_der" class="portada__texto">
+            <h1>BIENVENIDOS</h1>
+            <p id="parrafo">
+              Gracias por venir. Somos el unico restaurante, que sirve
+              deliciosos platos preparados por los mejores chefs. Solo toma unos
+              minutos navegar por nuestro sitio web y echar un vistazo a nuestro
+              sitio. <br />
+              Esperamos que pronto se una a nosotros para una magnífica
+              experiencia culinaria.
+            </p>
+          </div>
+        </div>
+
+        <!-- <aside id="opcional">
+					<div class="promocion">
+						<h2>Aceptamos todo tipo de tarjetas</h2>
+						<p>25% OFF abonando en EFECTIVO.</p>
+						<img src="img/creditscards.png" alt="">
 					</div>
-				</div>
-				<div id="img_centro" class="almuerzo">
-					<img src="img/coffe.jpg" class="imagen">
-					<h2 class="subtitulo">Almuerzo</h2>
-					<p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, ea.</p>
-					<div class="btn">
-						<button class="btn boton">Ver mas</button>
-					</div>
-				</div>
+				</aside> -->
+      </section>
 
-				<div id="img_derecha" class="cena">
-					<img src="img/cocina.jpg" class="imagen">
-					<h2 class="subtitulo">Cena</h2>
-					<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quisquam.</p>
-					<div class="btn">
-						<button class="btn boton">Ver mas</button>
-					</div>	
-				</div>
-			</div>
-	
-			<!-- <aside id="opcional">
-				<div class="promocion">
-					<h2>Aceptamos todo tipo de tarjetas</h2>
-					<p>25% OFF abonando en EFECTIVO.</p>
-					<img src="img/creditscards.png" alt="">
-				</div>
-			</aside> -->
+      <!-- Sección Servicios -->
+      <section id="servicios">
+        <!-- seccion servicios -->
+        <div class="servicios-varios">
+          <h2 class="nuestros-servicios">Nuestros Servicios</h2>
+          <div id="img_izq" class="desayuno">
+            <img src="img/coffe.jpg" alt="" class="imagen" />
+            <h2 class="subtitulo">Desayuno</h2>
+            <p class="parrafo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+              ipsa!
+            </p>
+            <div class="btn">
+              <button class="btn boton">Ver mas</button>
+            </div>
+          </div>
+          <div id="img_centro" class="almuerzo">
+            <img src="img/coffe.jpg" class="imagen" />
+            <h2 class="subtitulo">Almuerzo</h2>
+            <p class="parrafo">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
+              ea.
+            </p>
+            <div class="btn">
+              <button class="btn boton">Ver mas</button>
+            </div>
+          </div>
 
-		</section>
+          <div id="img_derecha" class="cena">
+            <img src="img/cocina.jpg" class="imagen" />
+            <h2 class="subtitulo">Cena</h2>
+            <p class="parrafo">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium, quisquam.
+            </p>
+            <div class="btn">
+              <button class="btn boton">Ver mas</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<!-- seccion Nosostros -->
-		<section id="nosotros">
-			<div id="img_bio">
-				<img src="img/chef02.jpg" class="chef02">
-			</div>
+      <!-- seccion Nosostros -->
+      <section id="nosotros">
+        <div id="img_bio">
+          <img src="img/chef02.jpg" class="chef02" />
+        </div>
 
-			<div id="biografia">
-				<h2 class="biografia">Nuestra Historia</h2>
-				<p class="biografia">Somos un emprendiemiento familiar, con una trayectoria de mas de 20 años en el rubro gastronómigo.
-				Y queremos brindarles la mejor atención. Siempre apostando por la calidad de nuestros productos. Somos pioneros en instalarnos en el centro gastronómigomas grande del país.
-				</p>
-			</div>
-		</section>
+        <div id="biografia">
+          <h2 class="biografia">Nuestra Historia</h2>
+          <p class="biografia">
+            Somos un emprendiemiento familiar, con una trayectoria de mas de 20
+            años en el rubro gastronómigo. Y queremos brindarles la mejor
+            atención. Siempre apostando por la calidad de nuestros productos.
+            Somos pioneros en instalarnos en el centro gastronómigomas grande
+            del país.
+          </p>
+        </div>
+      </section>
 
-		<!-- Secccion de Imagenes -->
-		<section id="imagenes">
-			<h2 class="titulo_galeria">Platos Destacados</h2>
-			<div class="imagenes">
-				
-				<div id="img_1" class="imagenes__container">
-					<img src="img/carne.jpg" class="imagenes__meat">
+      <!-- Secccion de Imagenes -->
+      <section id="imagenes">
+        <h2 class="titulo_galeria">Platos Destacados</h2>
+        <div class="imagenes">
+          <div id="img_1" class="imagenes__container">
+            <img src="img/carne.jpg" class="imagenes__meat" />
+          </div>
+          <div id="img_2" class="imagenes__container">
+            <img src="img/hambur.jpg" class="imagenes__burger" />
+          </div>
 
-				</div>
-				<div id="img_2" class="imagenes__container">
-					<img src="img/hambur.jpg" class="imagenes__burger">
+          <div id="img_3" class="imagenes__container">
+            <img src="img/beer.jpg" class="imagenes__beer" />
+          </div>
+          <div id="img_4" class="imagenes__container">
+            <img src="img/pasta.jpg" class="imagenes__pasta" />
+          </div>
+          <div id="img_5" class="imagenes__container">
+            <img src="img/pizza.jpg" class="imagenes__pizza" />
+          </div>
+          <div id="img_6" class="imagenes__container">
+            <img src="img/salad.jpg" class="imagenes__salad" />
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div id="formulario">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2 class="text-center my-5">Suscribete</h2>
+                <form action="#">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Nombre</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                  <!-- <div class="mb-3 form-check">
+									  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+									  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+									</div> -->
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Mensaje</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer"></footer>
+    </div>
 
-				</div>
+    <script src="js/javascript.js"></script>
 
-				<div id="img_3" class="imagenes__container">
-					<img src="img/beer.jpg" class="imagenes__beer">
-
-				</div>
-				<div id="img_4" class="imagenes__container">
-					<img src="img/pasta.jpg" class="imagenes__pasta">
-					
-				</div>
-				<div id="img_5" class="imagenes__container">
-					<img src="img/pizza.jpg" class="imagenes__pizza">
-
-				</div>
-				<div id="img_6" class="imagenes__container">
-					<img src="img/salad.jpg" class="imagenes__salad">
-				</div>
-			</div>
-			
-		</section>
-		<section id="contacto">
-			
-			<div id="formulario">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-center my-5">Suscribete</h2>
-							<form action="#">
-								<div class="mb-3">
-								  <label for="exampleInputEmail1" class="form-label">Nombre</label>
-								  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-								</div>
-								<div class="mb-3">
-									<label for="exampleInputEmail1" class="form-label">Email</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-								</div>
-								<div class="mb-3">
-								  <label for="exampleInputPassword1" class="form-label">Password</label>
-								  <input type="password" class="form-control" id="exampleInputPassword1">
-								</div>
-								<!-- <div class="mb-3 form-check">
-								  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-								  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-								</div> -->
-								<div class="mb-3">
-									<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-								  </div>
-								<button type="submit" class="btn btn-primary">Submit</button>
-							  </form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer class="footer">
-
-		</footer>
-	
-		<script src="js/javascript.js"></script>
-
-		<!-- script de bootstrap -->
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-	</body>
-	</html>
+    <!-- script de bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

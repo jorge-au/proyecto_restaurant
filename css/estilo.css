@@ -9,70 +9,78 @@ body{
 }
 
 .header{
-    height: 200px;
+    height: 110px;
     width: 100%;
-    background-color: #170055;
+    
+    display: flex;
+    justify-content: space-between;
+    
 }
 .logo{
-    width: 15%;
+    width: 13%;
     height: auto;
-    position: relative;
-    margin-left: 40%;
 }
 .logo__img{
     width: 100%;
 }
 
 .nav{
-    height: 80px;
-    width: 100%;
-    background: #35589A;
+    /* background-color: rgb(116, 230, 116); */
+    width: 800px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: end;
+    align-items:center;
 }
-.menu{
-    display: flex;
 
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
 .menu__items{
     list-style-type: none;
-    margin-left: 15px;
-    margin-right: 15px;
+     width: 95px;
+    height: 35px;
 }
+
 .menu__ancla{
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
-    color: #ffff;
+    color: #292626;
+    cursor: pointer;
 }
-
 
 /********Seccion Inicio*******************/
-#inicio{
+/* #inicio{
     background-color: green;
     height: auto;
-}
+} */
 .portada{
     width: 100%;
-    height: 50vh;
-    /*background-color: #1a8dd9;*/
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a8dd9;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
 
-#img_izquierda {
+.portada__img {
     height: 300px;
     width: 460px;
-    /* background-color:rgb(145, 153, 39); */
+    background-color:rgb(8, 6, 104);
     
 }
 .chef01{
     width: 100%;
 }
-#txt_der {
+.portada__texto {
     height: 300px;
     width: 500px;
     /* background-color:rgb(200, 93, 44); */
