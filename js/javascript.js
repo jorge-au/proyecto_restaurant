@@ -1,1 +1,0 @@
-document.getElementById('parrafo').content= 'soy un parrafo';

@@ -8,16 +8,9 @@
     <link rel="stylesheet" href="css/iconos.css" />
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- css bootstrap -->
     <link
@@ -60,11 +53,30 @@
       <!-- seccion Inicio -->
       <section id="inicio">
         <div class="portada">
-          <div id="img_izquierda" class="portada__img">
-            <img src="img/chef01.jpg" class="chef01" />
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="./img/chef01.jpg" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item c-item">
+                <img src="./img/chef02.jpg" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item c-item">
+                <img src="./img/chef03.jpg" class="d-block w-100 c-img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div id="txt_der" class="portada__texto">
-            <h1>BIENVENIDOS</h1>
+          
+          <!-- <div id="txt_der" class="portada__texto">
+            <h1 class="text">BIENVENIDOS</h1>
             <p id="parrafo">
               Gracias por venir. Somos el unico restaurante, que sirve
               deliciosos platos preparados por los mejores chefs. Solo toma unos
@@ -73,7 +85,7 @@
               Esperamos que pronto se una a nosotros para una magnífica
               experiencia culinaria.
             </p>
-          </div>
+          </div> -->
         </div>
 
         <!-- <aside id="opcional">
@@ -87,41 +99,70 @@
 
       <!-- Sección Servicios -->
       <section id="servicios">
-        <!-- seccion servicios -->
-        <div class="servicios-varios">
-          <h2 class="nuestros-servicios">Nuestros Servicios</h2>
-          <div id="img_izq" class="desayuno">
-            <img src="img/coffe.jpg" alt="" class="imagen" />
-            <h2 class="subtitulo">Desayuno</h2>
-            <p class="parrafo">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              ipsa!
-            </p>
-            <div class="btn">
-              <button class="btn boton">Ver mas</button>
-            </div>
-          </div>
-          <div id="img_centro" class="almuerzo">
-            <img src="img/coffe.jpg" class="imagen" />
-            <h2 class="subtitulo">Almuerzo</h2>
-            <p class="parrafo">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim,
-              ea.
-            </p>
-            <div class="btn">
-              <button class="btn boton">Ver mas</button>
-            </div>
-          </div>
+        <div class="servicios">
+          <h2 class="servicios__titulo">Nuestros Servicios</h2>
 
-          <div id="img_derecha" class="cena">
-            <img src="img/cocina.jpg" class="imagen" />
-            <h2 class="subtitulo">Cena</h2>
-            <p class="parrafo">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Praesentium, quisquam.
-            </p>
-            <div class="btn">
-              <button class="btn boton">Ver mas</button>
+          <div class="servicios__cards">
+
+            <div class="tarjetas">
+              <div>
+                <img src="img/coffe.jpg" alt="" class="imagen" />
+              </div>
+              <h2 class="titulo">Café con leche</h2>
+              <p class="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <button class="boton">Ver mas</button>
+            </div>
+            <div class="tarjetas">
+              <div>
+                <img src="img/coffe.jpg" alt="" class="imagen" />
+              </div>
+              <h2 class="titulo">Café con leche</h2>
+              <p class="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <button class="boton">Ver mas</button>
+            </div>
+            <div class="tarjetas">
+              <div>
+                <img src="img/coffe.jpg" alt="" class="imagen" />
+              </div>
+              <h2 class="titulo">Café con leche</h2>
+              <p class="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <button class="boton">Ver mas</button>
+            </div>
+            <div class="tarjetas">
+              <div>
+                <img src="img/coffe.jpg" alt="" class="imagen" />
+              </div>
+              <h2 class="titulo">Café con leche</h2>
+              <p class="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <button class="boton">Ver mas</button>
+            </div>
+            <div class="tarjetas">
+              <div>
+                <img src="img/coffe.jpg" alt="" class="imagen" />
+              </div>
+              <h2 class="titulo">Café con leche</h2>
+              <p class="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <button class="boton">Ver mas</button>
+            </div>
+            <div class="tarjetas">
+              <div>
+                <img src="img/coffe.jpg" alt="" class="imagen" />
+              </div>
+              <h2 class="titulo">Café con leche</h2>
+              <p class="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <button class="boton">Ver mas</button>
             </div>
           </div>
         </div>

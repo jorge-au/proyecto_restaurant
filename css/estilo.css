@@ -5,21 +5,27 @@
     box-sizing: border-box;
 }
 body{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --pk-link-shell-background-text-color: #000;
+    --pk-link-shell-background-text-blue-color: #0498e9;
+    background: -webkit-radial-gradient(center top, rgb(255, 255, 255) 33%, rgb(78, 103, 150));
 }
 
+/* ******** Seccion Header ******* */
 .header{
-    height: 110px;
+    height: 80px;
     width: 100%;
-    
     display: flex;
     justify-content: space-between;
-    
+    margin-bottom: 10px;
 }
 .logo{
-    width: 13%;
+    width: 90px;
     height: auto;
 }
+
 .logo__img{
     width: 100%;
 }
@@ -29,7 +35,7 @@ body{
     width: 800px;
     display: flex;
     justify-content: end;
-    align-items:center;
+    align-items: self-end;
 }
 
 .menu{
@@ -55,138 +61,81 @@ body{
 }
 
 /********Seccion Inicio*******************/
-/* #inicio{
-    background-color: green;
+#inicio{
     height: auto;
-} */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .portada{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    background-color: #1a8dd9;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
 }
 
-.portada__img {
-    height: 300px;
-    width: 460px;
-    background-color:rgb(8, 6, 104);
-    
+.c-item {
+    height: 65vh;
 }
-.chef01{
+.c-img {
     width: 100%;
-}
-.portada__texto {
-    height: 300px;
-    width: 500px;
-    /* background-color:rgb(200, 93, 44); */
-}
-
-h1 {
-    text-align: center;
-    font-size: 2em;
-    padding: 10px;
-}    
-
-p {
-    font-size: 1.3em;
-    text-align: center;
-    padding: 5px;
+    height: 100%;
 }
 
 /******** NUESTROS SERVICIOS *******/
 
-.servicios-varios{
-    background-color: hotpink;
-    height: 600px;
+.servicios {
+    /* background-color: hotpink; */
+    height: auto;
+    margin-top: 35px;
+}
+
+.servicios__titulo {
+    width: fit-content;
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.servicios__cards {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 200px;
-    position: relative;
-}
-.nuestros-servicios{
-    font-size: 40px;
-    position: absolute;
-    top: 10px;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
-#img_izq {
-    height: 450px;
+.tarjetas{
     width: 350px;
-    background-color: rgb(122, 179, 150);
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-#img_centro {
     height: 450px;
-    width: 350px;
-    background-color: rgb(187, 121, 109);
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-#img_derecha {
-    height: 450px;
-    width: 350px;
-    background-color: rgb(238, 226, 224);
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-.imagen{
-    width: 100%;
-}
-.subtitulo{
-    text-align: center;
-    font-size: 1.5em;
-}
-.parrafo{
-    text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
-}
-.btn{
+    border: 1px solid black;
+    border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
-
-.btn .boton{
-    font-size: 1.2em;
-    padding: 5px 15px;
+.imagen {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.titulo {
+    font-size: 1.5rem;
+    width: fit-content;
+}
+.descripcion {
+  margin-top: 0px;
+  margin-left: 10%;
+}
+.boton {
+    width: 120px;
+    padding: 10px;
+    background-color: #77A5E3;
+    font-size: 1rem;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: blue;
-    color: white;
-}
-/* ASIDE */
-/* #opcional {
-    height: 400px;
-    width: 100%;    
-    background-color: #dd0fe4;
-}
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 25px auto;
 
-.promocion{
-    background-color: brown;
-    height: 100px;
-    width: 450px;
-    display: block;
-    text-align: center;
 }
-
-.promocion img {
-    width: 20%;
-    margin-bottom: 50px;
-    position: absolute;
-    left:480px;
-    
-} */
 
 #nosotros {
     height: 500px;
