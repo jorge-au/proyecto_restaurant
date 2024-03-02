@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Restaurant</title>
+    <title>Jorge's</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <link rel="stylesheet" href="css/iconos.css" />
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- css bootstrap -->
     <link
@@ -21,80 +24,130 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="contenedor">
       <header class="header">
         <div class="logo">
           <img src="img/logo.png" class="logo__img" />
         </div>
 
-		<nav id="nav" class="nav">
-			<ul class="menu">
-			  <li class="menu__items">
-				<a href="#inicio" class="menu__ancla">Inicio</a>
-			  </li>
-			  <li class="menu__items">
-				<a href="#servicios" class="menu__ancla">Servicios</a>
-			  </li>
-			  <li class="menu__items">
-				<a href="#nosotros" class="menu__ancla">Nosotros</a>
-			  </li>
-			  <li class="menu__items">
-				<a href="#imagenes" class="menu__ancla">Imagenes</a>
-			  </li>
-			  <li class="menu__items">
-				<a href="#contacto" class="menu__ancla">Contacto</a>
-			  </li>
-			</ul>
-		  </nav>
-	
+        <nav id="nav" class="nav">
+          <ul class="menu">
+            <li class="menu__items">
+              <a href="#inicio" class="menu__ancla">Inicio</a>
+            </li>
+            <li class="menu__items">
+              <a href="#servicios" class="menu__ancla">Servicios</a>
+            </li>
+            <li class="menu__items">
+              <a href="#nosotros" class="menu__ancla">Nosotros</a>
+            </li>
+            <li class="menu__items">
+              <a href="#galeria" class="menu__ancla">Galería</a>
+            </li>
+            <li class="menu__items">
+              <a href="#reservas" class="menu__ancla">Reservaciones</a>
+            </li>
+            <li class="menu__items">
+              <a href="#contacto" class="menu__ancla">Contacto</a>
+            </li>
+          </ul>
+        </nav>
       </header>
 
-      
       <!-- seccion Inicio -->
       <section id="inicio">
         <div class="portada">
-          <div id="carouselExample" class="carousel slide">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active c-item">
-                <img src="./img/chef01.jpg" class="d-block w-100 c-img" alt="...">
+                <img
+                  src="./img/chef01.jpg"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
               </div>
               <div class="carousel-item c-item">
-                <img src="./img/chef02.jpg" class="d-block w-100 c-img" alt="...">
+                <img
+                  src="./img/chef02.jpg"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
               </div>
               <div class="carousel-item c-item">
-                <img src="./img/chef03.jpg" class="d-block w-100 c-img" alt="...">
+                <img
+                  src="./img/chef03.jpg"
+                  class="d-block w-100 c-img"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          
-          <!-- <div id="txt_der" class="portada__texto">
-            <h1 class="text">BIENVENIDOS</h1>
-            <p id="parrafo">
-              Gracias por venir. Somos el unico restaurante, que sirve
-              deliciosos platos preparados por los mejores chefs. Solo toma unos
-              minutos navegar por nuestro sitio web y echar un vistazo a nuestro
-              sitio. <br />
-              Esperamos que pronto se una a nosotros para una magnífica
-              experiencia culinaria.
-            </p>
-          </div> -->
         </div>
-
-        <!-- <aside id="opcional">
-					<div class="promocion">
-						<h2>Aceptamos todo tipo de tarjetas</h2>
-						<p>25% OFF abonando en EFECTIVO.</p>
-						<img src="img/creditscards.png" alt="">
-					</div>
-				</aside> -->
       </section>
 
       <!-- Sección Servicios -->
@@ -103,14 +156,13 @@
           <h2 class="servicios__titulo">Nuestros Servicios</h2>
 
           <div class="servicios__cards">
-
             <div class="tarjetas">
               <div>
                 <img src="img/coffe.jpg" alt="" class="imagen" />
               </div>
-              <h2 class="titulo">Café con leche</h2>
+              <h2 class="titulo">Desayunos</h2>
               <p class="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
               <button class="boton">Ver mas</button>
             </div>
@@ -118,9 +170,9 @@
               <div>
                 <img src="img/coffe.jpg" alt="" class="imagen" />
               </div>
-              <h2 class="titulo">Café con leche</h2>
+              <h2 class="titulo">Almuerzos</h2>
               <p class="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
               <button class="boton">Ver mas</button>
             </div>
@@ -128,39 +180,9 @@
               <div>
                 <img src="img/coffe.jpg" alt="" class="imagen" />
               </div>
-              <h2 class="titulo">Café con leche</h2>
+              <h2 class="titulo">Cenas</h2>
               <p class="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              </p>
-              <button class="boton">Ver mas</button>
-            </div>
-            <div class="tarjetas">
-              <div>
-                <img src="img/coffe.jpg" alt="" class="imagen" />
-              </div>
-              <h2 class="titulo">Café con leche</h2>
-              <p class="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              </p>
-              <button class="boton">Ver mas</button>
-            </div>
-            <div class="tarjetas">
-              <div>
-                <img src="img/coffe.jpg" alt="" class="imagen" />
-              </div>
-              <h2 class="titulo">Café con leche</h2>
-              <p class="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              </p>
-              <button class="boton">Ver mas</button>
-            </div>
-            <div class="tarjetas">
-              <div>
-                <img src="img/coffe.jpg" alt="" class="imagen" />
-              </div>
-              <h2 class="titulo">Café con leche</h2>
-              <p class="descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
               <button class="boton">Ver mas</button>
             </div>
@@ -170,111 +192,101 @@
 
       <!-- seccion Nosostros -->
       <section id="nosotros">
-        <div id="img_bio">
-          <img src="img/chef02.jpg" class="chef02" />
-        </div>
-
-        <div id="biografia">
-          <h2 class="biografia">Nuestra Historia</h2>
+        <h2 class="nosotros__titulo">Acerca de Nosotros</h2>
+        <div class="nosotros">
+          <div id="img_bio">
+            <img src="img/chef02.jpg" class="chef02" />
+          </div>
           <p class="biografia">
-            Somos un emprendiemiento familiar, con una trayectoria de mas de 20
-            años en el rubro gastronómigo. Y queremos brindarles la mejor
-            atención. Siempre apostando por la calidad de nuestros productos.
-            Somos pioneros en instalarnos en el centro gastronómigomas grande
-            del país.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officia aperiam unde amet repudiandae. Velit natus quia dolore quas corrupti, quibusdam nesciunt corporis, eos atque accusamus et tempora fugit ad.
+            Tempore earum nostrum, dolores cumque aspernatur est numquam molestias, odit magnam vitae sequi voluptatum iste voluptates, obcaecati perspiciatis! Impedit ab alias consequatur a minima illo quis corporis optio ipsum dolore?
           </p>
         </div>
       </section>
 
       <!-- Secccion de Imagenes -->
-      <section id="imagenes">
-        <h2 class="titulo_galeria">Platos Destacados</h2>
+      <section id="galeria">
+        <h2 class="titulo_galeria">Nuestros Platos</h2>
         <div class="imagenes">
           <div id="img_1" class="imagenes__container">
-            <img src="img/carne.jpg" class="imagenes__meat" />
+            <img src="img/carne.jpg" class="platos" />
           </div>
           <div id="img_2" class="imagenes__container">
-            <img src="img/hambur.jpg" class="imagenes__burger" />
+            <img src="img/hambur.jpg" class="platos" />
           </div>
 
           <div id="img_3" class="imagenes__container">
-            <img src="img/beer.jpg" class="imagenes__beer" />
+            <img src="img/red-wine.jpg" class="platos" />
           </div>
           <div id="img_4" class="imagenes__container">
-            <img src="img/pasta.jpg" class="imagenes__pasta" />
+            <img src="img/pasta.jpg" class="platos" />
           </div>
           <div id="img_5" class="imagenes__container">
-            <img src="img/pizza.jpg" class="imagenes__pizza" />
+            <img src="img/pizza.jpg" class="platos" />
           </div>
           <div id="img_6" class="imagenes__container">
-            <img src="img/salad.jpg" class="imagenes__salad" />
+            <img src="img/salad.jpg" class="platos" />
           </div>
         </div>
       </section>
-      <section id="contacto">
-        <div id="formulario">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <h2 class="text-center my-5">Suscribete</h2>
-                <form action="#">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Nombre</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Email</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"
-                      >Password</label
-                    >
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="exampleInputPassword1"
-                    />
-                  </div>
-                  <!-- <div class="mb-3 form-check">
-									  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-									  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-									</div> -->
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"
-                      >Mensaje</label
-                    >
-                    <textarea
-                      class="form-control"
-                      id="exampleFormControlTextarea1"
-                      rows="3"
-                    ></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
+
+      <!-- Seccion de contacto -->
+      <section id="reservas">
+        <h2 class="contacto__titulo">Reservaciones</h2>
+        <form class="container">
+          <div class="mb-3">
+            <label for="name" class="form-label label-texto">Nombre Completo</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label label-texto">Correo Electrónico</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              Nunca compartiremos su correo electrónico con nadie más.
             </div>
           </div>
-        </div>
+          <div class="mb-3">
+            <label for="Textarea1" class="form-label label-texto">Comentarios</label>
+            <textarea class="form-control" id="Textarea1" rows="6"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </section>
-      <footer class="footer"></footer>
-    </div>
 
-    <script src="js/javascript.js"></script>
+      <!-- Pie de Pagina -->
+
+      <section id="contacto">
+        <div class="columna1">
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>whatsapp</li>
+          </ul>
+        </div>
+        <div class="columna1">
+          <ul>
+            <li>Inicio</li>
+            <li>Servicios</li>
+            <li>Nosotros</li>
+            <li>Galería</li>
+            <li>Reservaciones</li>
+            <li>Contacto</li>
+          </ul>
+        </div>
+        <div class="columna1">
+          <p>Av. De Mayo N°333</p>
+          <p>Tel: 111-111-111</p>
+        </div>
+
+      </section>
+
+    </div>
 
     <!-- script de bootstrap -->
     <script
